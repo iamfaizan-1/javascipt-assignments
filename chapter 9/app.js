@@ -225,15 +225,15 @@
 
 // question no 9
 
-// var num = prompt("Enter number");
+var num = prompt("Enter number");
 
-// if(num % 2 == 0){
-//     console.log("The number is even");
-// }
+if(num % 2 == 0){
+    document.write("The number is even");
+}
 
-// else{
-//     console.log("The number is odd");
-// }
+else{
+    document.write("The number is odd");
+}
 
 
 
