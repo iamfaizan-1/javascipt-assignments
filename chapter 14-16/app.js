@@ -131,3 +131,34 @@ var citynames = ["Karachi","Islamabad","Peshawar","Lahore","Rawalpindi"];
 
  console.log(copycity);
 
+
+//  question no 13
+
+var devices = [];
+
+devices.push("Keyboard");
+devices.push("mouse");
+devices.push("monitier");
+
+console.log("out",devices[0] + "</br>");
+console.log("out",devices[1]+ "</br>");
+console.log("out",devices[2]);
+
+
+// question no 14
+
+var devices2 = [];
+
+devices2.unshift("Keyboard");
+devices2.unshift("mouse");
+devices2.unshift("moniter");
+
+console.log("out",devices2[0]+ "</br> ")
+console.log("out",devices2[1]+ "</br> ")
+console.log("out",devices2[2]+ "</br> ")
+
+// question no 15
+
+var companies = ["Motorolla","Samsung","Google","Apple","Nokia"];
+
+document.write("<select>  " + "<option>" +companies[0] + "</option>" + "<option>" + companies[1]+  "</option>" + "<option>" + companies[2]+  "</option>" + "<option>" + companies[3]+  "</option>"+ "<option>" + companies[1]+  "</option>" +"</select>")
