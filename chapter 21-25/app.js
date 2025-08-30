@@ -150,4 +150,52 @@
 // console.log(integer);
 
 // console.log(typeof(str))
-// console.log(typeof(integer))
+// // console.log(typeof(integer))
+// var text = "World War II"
+
+// var firstChar = text.indexOf("World War II");
+
+// if(firstChar !== -1){
+//     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12)
+    
+// }
+
+// console.log(text)
+
+
+// var text = "My name is Faizan";
+
+
+// console.log(text.slice(3,7))
+
+
+// let text = "My name is Faizan";
+
+// var firstChar = text.indexOf("name");
+
+// // console.log(firstChar);
+
+// if(firstChar !== -1){
+
+//     text  = text.slice(0, firstChar) + "game" + text.slice(firstChar+3)
+// }
+
+// console.log(text)
+
+// var text = "Hyderabad";
+
+// var toChange = "Hyder";
+
+// var withChange = "Islam";
+
+// var firstChar = text.indexOf("Hyder");
+
+// if( firstChar !== -1 ){
+
+//     text = text.slice(0,firstChar) + withChange + text.slice(firstChar + toChange.length);
+// }
+
+// console.log(text)
+
+
+
