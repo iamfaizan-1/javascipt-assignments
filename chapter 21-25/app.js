@@ -199,3 +199,22 @@
 
 
 
+// var text = "Ali and Sami are best friends. They play cricket and football together"
+
+// var firstChar = text.indexOf("and");
+
+// var toChange = "and";
+// var withChange = "&";
+
+// var secondChar = text.lastIndexOf(toChange)
+// if(firstChar !== -1){
+
+//     text  = text.slice(0,firstChar) + withChange + text.slice(firstChar + toChange.length)
+
+// }
+
+// console.log(text)
+
+// // console.log(secondChar)
+
+// // console.log(firstChar)
