@@ -218,3 +218,95 @@
 // // console.log(secondChar)
 
 // // console.log(firstChar)
+
+
+// converting to uppercase
+
+
+
+
+// function uppercase(){
+
+// var input = document.getElementById("inputField").value
+// if(input == ""){
+//     console.log("write something");
+// }
+
+// else{
+
+//  console.log(input.innerText = input.toUpperCase() )
+// }
+
+// }
+
+
+// question no 11
+
+// function titlecase(){
+
+// var input = document.getElementById("inputField").value
+
+// if(input == ""){
+
+//     console.log("Write something");
+// }
+
+// else{
+
+//    console.log( input.innerText = input.slice(0,1).toUpperCase() + input.slice(1,input.length).toLowerCase()  )
+// }
+
+// }
+
+// question no 13
+
+// let flag = false;
+
+// function username(){
+
+
+//     let username = document.getElementById("inputField").value
+
+//     for(i = 0; i<= username.length -1 ;i++){
+
+//         if(username[i] == '!' || username[i] == '@' || username[i] == ','  ){
+//             alert("Enter valid username")
+//             flag = true;
+//         }
+
+//     }
+
+
+
+
+// }
+
+// if(flag == false){
+//     console.log("correct username")
+// }
+
+
+
+// question no14
+
+// let arr = ["cake", "apple pie", "cookie", "chips","patties"]
+
+
+// let flag = false;
+// var input = prompt("Enter arr")
+
+// input = input.toLowerCase()
+//     for(i = 0; i<= arr.length-1; i++){
+
+//         if(input == arr[i] ){
+//             console.log(input)
+//             console.log("Element found at index",i)
+
+//             flag = true;
+//         }
+//     }
+
+
+// if(flag != true ){
+//   console.log("We are sorry",input,"not available")
+// }
