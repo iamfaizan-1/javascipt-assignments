@@ -310,3 +310,44 @@
 // if(flag != true ){
 //   console.log("We are sorry",input,"not available")
 // }
+
+
+// var name = "my name is Faizan";
+
+// var arr = name.split("");
+
+// for(i = 0; i<=arr.length-1 ; i++){
+
+//     console.log(arr[i],"</br>")
+// }
+
+
+// question no 17
+
+// var input = prompt("Enter something");
+
+
+// for(i = 0; i<= input.length-1; i++){
+
+//     var length = input.length-1;
+
+//     console.log(input[length])
+// }
+
+
+// question no 18
+
+
+// var message = "The quick brown fox jumps over the lazy dog "
+
+
+// var messageArr = message.split(" ")
+// var count = 0;
+// for(i = 0; i<=messageArr.length-1; i++){
+
+//     if(messageArr[i].toLowerCase() === "the"){
+// count++;
+//     }
+// }
+
+// document.write("The number of counts in this sentence of ","i ","is ",count," times");
