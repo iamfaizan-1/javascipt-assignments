@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maindiv{
+    display: flex;
+    background-color: rgb(191, 191, 191);
+    height: 100vh;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#addbtn{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+border: none;
+font-size: 12px;
+background-color: deepskyblue;
+color: white;
+}
+
+#input{
+    padding: 10px 10px ;
+    border-radius: 15px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#delbtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+border: none;
+font-size: 12px;
+background-color: red;
+color: white;
+margin-left: 20px;
+}
+
+.outputLi{
+
+    padding: 10px;
+
+}
+
+#output{
+
+    list-style-type: decimal;
+}

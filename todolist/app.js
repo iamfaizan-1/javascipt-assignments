@@ -44,7 +44,7 @@ function addTodo() {
   var li = document.createElement("li");
   var counter = ul.childElementCount;
 
-  li.innerHTML = "<div class='outputLi'>" + input.value + "<button onclick='deleteTodo(" + counter + ")'>Delete</button></div>"
+  li.innerHTML = "<div class='outputLi'>" + input.value + "<button id = 'delbtn' onclick='deleteTodo(" + counter + ")'>Delete</button></div>"
   li.setAttribute("id", counter)
   ul.appendChild(li)
   input.value = ""
